@@ -1,0 +1,13 @@
+.carrito {
+  display: flex;
+  align-items: center;
+}
+.carrito__iconoCarrito {
+  width: 40px;
+  filter: invert(100%) sepia(12%) saturate(7500%) hue-rotate(297deg) brightness(123%) contrast(110%);
+}
+.carrito__numeroCarrito {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-left: 10px;
+}

@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import CartWidget from "./CartWidget/CartWidget";
 const NavBar = () => {
   return (
     <header className="header">
@@ -17,7 +18,7 @@ const NavBar = () => {
             <a className="header__nav__menu__item__link" href="./index.html">Headphones</a>
           </li>
         </ul>
-        <a className="header__nav__btnLogIn" href="./index.html">Log In</a>
+        <CartWidget />
       </nav>
     </header>
   );
