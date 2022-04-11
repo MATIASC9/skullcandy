@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.item {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.item_img {
+  width: 300px;
+}
+.item__detalles {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.item__detalles__titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.item__detalles__descripcion {
+  font-size: 1rem;
+  color: #666;
+  line-height: 22px;
+}
+.item__detalles__precio {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
