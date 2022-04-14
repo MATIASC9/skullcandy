@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.btnListDetail {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  justify-content: center;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  margin: 10px;
+  width: 100px;
+  justify-content: center;
+}

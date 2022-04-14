@@ -14,7 +14,7 @@ const ItemCount = (props) => {
   };
   return (
     <div className="contenedorItem">
-      <h5 className="contenedorItem__titulo">Grind® True Wireless Earbuds</h5>
+      <h5 className="contenedorItem__titulo">{props.title}</h5>
       <div className="contenedorItem__contador">
         <button className="contenedorItem__contador__boton" onClick={onDecrement}>-</button>
         <span className="contenedorItem__contador__cantidad">{count}</span>
