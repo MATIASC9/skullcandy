@@ -17,8 +17,7 @@
   font-size: 1.5rem;
 }
 .producto__img {
-  width: 100%;
-  border-radius: 10px;
+  width: 110%;
 }
 .producto__precio {
   font-size: 1.6rem;
