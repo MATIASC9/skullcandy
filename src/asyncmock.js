@@ -21,8 +21,16 @@ const items = [
     price: 94.99,
     pictureUrl: "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/321/11655/6ffe14cce9b12e161b2692a602300a0a38b2794a036eb953361ac4e1129305c6__56724.1649436577.png?c=2",
     description: "Grind delivers a whopping 40 hours of listening time between the charging case and buds. Plus, your earbuds tell you how much battery is left every time you remove them from the case.",
-    category: "headphones"
+    category: "earbuds"
   },
+  {
+    id: 4,
+    title: 'Hesh® Evo Wireless Headphones',
+    price: 104.99,
+    pictureUrl: "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/252/8356/621a3757c15f664620469e0472d9c43a9fa8b5522f2be778e5de7f3deb3b180f__92346.1648966891.jpg?c=2",
+    description: "With powerful 40mm drivers and exceptional acoustics, Hesh Evo features audio quality that has been refined over four generations of constant improvement. The clear, rich sound rivals the most expensive headphones out there — at a price that's surprisingly affordable.",
+    category: "headphones"
+  }
 ]
 export const getItemsById = (id) => {
   return new Promise((resolve) => {
