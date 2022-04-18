@@ -1,6 +1,7 @@
 const items = [
   {
     id: 1,
+    stock: 80,
     title: 'Grind® True Wireless Earbuds',
     price: 199.00,
     pictureUrl: "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/313/11373/0a3738e4c0de2ec1c1723fa2eb1a12952e880103e26a495f44042a84d23e78d7__42589.1648967478.png?c=2",
@@ -9,6 +10,7 @@ const items = [
   },
   {
     id: 2,
+    stock: 50,
     title: 'Pit Viper Push™ Active True Wireless Earbuds',
     price: 89.99,
     pictureUrl: "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/319/11583/cdebd7cff861d3c28b234926424746aa75715370b8515fa3d7a208508c5103fa__55404.1649436398.png?c=2",
@@ -17,6 +19,7 @@ const items = [
   },
   {
     id: 3,
+    stock: 75,
     title: 'Pit Viper Grind® True Wireless Earbuds',
     price: 94.99,
     pictureUrl: "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/321/11655/6ffe14cce9b12e161b2692a602300a0a38b2794a036eb953361ac4e1129305c6__56724.1649436577.png?c=2",
@@ -25,6 +28,7 @@ const items = [
   },
   {
     id: 4,
+    stock: 100,
     title: 'Hesh® Evo Wireless Headphones',
     price: 104.99,
     pictureUrl: "https://cdn11.bigcommerce.com/s-k11cg5mzh9/images/stencil/500x659/products/252/8356/621a3757c15f664620469e0472d9c43a9fa8b5522f2be778e5de7f3deb3b180f__92346.1648966891.jpg?c=2",
