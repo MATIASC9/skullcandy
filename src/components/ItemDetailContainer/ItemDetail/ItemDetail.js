@@ -22,7 +22,8 @@ export const ItemDetail = ({ id, title, price, pictureUrl, description, stock })
         <h1 className="item__detalles__titulo">{title}</h1>
         <p className="item__detalles__descripcion">{description}</p>
         <p className="item__detalles__precio">$ {price}</p>
-        { isInCart(id) ? <Link to='/cart'>Go to cart</Link> : <ItemCount onAdd={handleAdd} stock={stock}/> } 
+        { isInCart(id) ? <Link to='/cart'>Go to cart</Link> : <ItemCount onAdd={handleAdd} stock={stock}/> }
+        { isInCart(id) ? <button><Link to='/cart'>Finalizar compra</Link></button> : "" }
       </div>
     </article>
   )

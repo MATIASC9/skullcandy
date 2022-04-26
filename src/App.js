@@ -5,12 +5,12 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { CartContextProvider } from './context/CartContext';
+import Cart from './components/Cart/Cart';
 
 export const Context = createContext()
 
 function App() {
   const [cart, setCart] = useState([])
-  console.log(cart)
   return (
     <>
       <Context.Provider value={{ cart, setCart }}>
@@ -27,6 +27,7 @@ function App() {
             <Route path="/category/:id" element={<ItemListContainer greeting="Welcome to Skullcandy headphone store!" />} />
             <Route path="/detail" element={<ItemDetailContainer />} />
             <Route path="/detail/:id" element={<ItemDetailContainer />} />
+            <Route path='/cart' element={<Cart />} />
             <Route path="*" element={<h1>Error 404 not found</h1>} />
           </Routes>
         </BrowserRouter>
