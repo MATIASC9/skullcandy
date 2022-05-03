@@ -29,6 +29,7 @@ const Cart = () => {
         ))}
       </ul>
       <>Total: {total}</>
+      <Link to={'/form'}>Continuar compra</Link>
     </>
   );
 };
